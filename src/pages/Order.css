@@ -1,0 +1,192 @@
+.order-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  width: 100%;
+  background-color: #a17bec;
+}
+
+.order-container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1200px;
+}
+
+.order-heading h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.order-content {
+  display: flex;
+  justify-content: center;
+}
+
+.order-form {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  overflow: hidden;
+  max-width: 600px;
+}
+
+.order-form-top {
+  background-image: url("./obg.png");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.order-form-top:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.order-form-con {
+  margin: 20px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.order-send-message {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.order-form-bottom {
+  margin: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+  font-size: 16px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #8a2be2;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.btn-submit {
+  display: block;
+  width: 100%;
+  padding: 12px 30px;
+  border-radius: 5px;
+  background-color: #8a2be2;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-submit:hover {
+  background-color: #6a1cab;
+}
+
+.receipt-container {
+  width: 450px;
+  margin: 50px 15px;
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.receipt-heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.receipt-details {
+  margin-top: 20px;
+}
+
+.receipt-section {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+.receipt-section:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.receipt-section h3 {
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.receipt-section p {
+  margin: 5px 0;
+}
+
+.receipt-section strong {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 5px;
+  width: 100px;
+}
+
+.receipt-svg-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.receipt-border {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.receipt-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

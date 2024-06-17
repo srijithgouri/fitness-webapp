@@ -1,0 +1,175 @@
+.main-section {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.pricing-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pricing-section h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.pricing-section span {
+  font-size: 20px;
+  color: #666;
+}
+
+.plan-container {
+  margin-top: 2rem;
+  max-width: max-content;
+  border-radius: 9999px;
+  background-color: #8068eb;
+  border-radius: 1.5rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.01);
+}
+
+@media (min-width: 1024px) {
+  .plan-container {
+    margin-bottom: 0;
+    display: flex;
+  }
+}
+
+.cycle-selector-buttons-old {
+  height: 50px;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.cycle-selector-buttons-old input {
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 2px;
+}
+
+.cycle-selector-buttons-old-radio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 1rem;
+  border-radius: 1.5rem;
+  color: #332da1;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.25rem;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 100%;
+}
+
+.cycle-selector-buttons-old-radio.active {
+  border-radius: 1.5rem;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.01);
+}
+
+.radio-btn-label {
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-bottom: 0;
+  color: black;
+}
+
+.radio-btn-label.active {
+  color: white;
+}
+
+.radio-btn-label:focus-within {
+  box-shadow:
+    0 0 0 2px #e9d8fd,
+    0 0 0 4px #7f3bff;
+}
+
+@media (min-width: 768px) {
+  .radio-btn-label {
+    font-size: 1.125rem;
+  }
+}
+
+input {
+  margin: 0;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pricing-container {
+  display: flex;
+  max-width: 300px;
+  min-width: 300px;
+  flex-direction: column;
+  border-radius: 0.75rem;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 1.5rem;
+}
+
+.pricing-container:hover {
+  transform: scale(1.008);
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.3);
+}
+
+.pricing-box-container {
+  flex: 0;
+  padding: 2rem;
+}
+
+.pricing-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  letter-spacing: -0.025em;
+  color: #4f46e5;
+}
+
+.pricing-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #333333;
+}
+
+.pricing-button {
+  display: block;
+  padding: 0.625rem 0rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.pricing-button:hover {
+  background-color: #4338ca;
+}

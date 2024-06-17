@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.error_container {
+  text-align: center;
+}
+
+.error_code {
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: 600;
+  color: black;
+}
+
+.error_message {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.error_svg {
+  margin-left: auto;
+  margin-right: auto;
+  height: 4rem;
+  width: 4rem;
+  font-weight: 500;
+  color: black;
+}
+
+.error-go-back-message {
+  margin-top: 1rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.go-back-link {
+  color: #3b82f6;
+}

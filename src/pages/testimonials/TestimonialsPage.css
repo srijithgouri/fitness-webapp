@@ -1,0 +1,11 @@
+.testimonialspage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonialspage-head {
+  margin-top: 2rem;
+  color: #333;
+}

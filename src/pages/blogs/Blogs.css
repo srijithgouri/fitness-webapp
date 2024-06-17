@@ -1,0 +1,23 @@
+.blogs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blogs-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #333;
+}
+
+.blogs-head h1 {
+  text-align: center;
+}
+
+.blogs-all {
+  max-width: 56rem;
+}

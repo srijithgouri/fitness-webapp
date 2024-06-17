@@ -1,0 +1,13 @@
+<?php
+
+$keyId = 'razorpay key id';
+$keySecret = 'razorpay key secret';
+$displayCurrency = 'INR';
+define('HTTP_SERVER', 'http://localhost:3000/');
+
+
+//These should be commented out in production
+// This is for error reporting
+// Add it to config.php to report any errors
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
